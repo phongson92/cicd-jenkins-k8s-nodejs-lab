@@ -31,7 +31,7 @@ pipeline {
         script {
           docker.withRegistry( 'https://registry.hub.docker.com', registryCredential ) {
             dockerImage.push("latest")
-            sh "docker image rm ${dockerimagename}:latest"
+            //sh "docker image rm ${dockerimagename}:latest"
             sh "docker image rm registry.hub.docker.com/phongson92/nodeapp:latest"  
           }
         }
