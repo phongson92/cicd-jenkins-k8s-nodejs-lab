@@ -1,1 +1,2 @@
-# cicd-jenkins-k8s-nodejs-lab
+# Jenkins-integration-with-kubernetes
+CI/CD Pipeline for kubernetes deployment using Jenkins
